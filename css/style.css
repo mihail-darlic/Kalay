@@ -1,0 +1,20 @@
+
+/* starter */
+.starter {
+   background-image: url(../img/girl.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+.starter_container {
+}
+.starter_title {
+   margin-bottom: 15px;
+}
+.starter_desc {
+   margin-bottom: 30px;
+}
+.starter_button {
+   margin-bottom: 15px;
+}
