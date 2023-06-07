@@ -3,17 +3,23 @@ html {
 }
 
 body {
-   font-family: 'Poppins', sans-serif;
+   font-family: sans-serif;
    font-size  : 1.6rem;
 }
 
-.container {
-   width  : 1170px;
-   margin : 0 auto;
-   padding: 0 15px;
+* {
+   box-sizing: border-box;
+   margin    : 0;
+   padding   : 0;
 }
 
-/* starter */
+.container {
+  
+   width           : 1170px;
+   margin          : 0 auto;
+   padding         : 0 15px;
+}
+
 .starter {
    background-image     : url(../img/girl.jpg);
    background-attachment: fixed;
@@ -23,12 +29,11 @@ body {
 }
 
 .starter__container {
-   display        : flex;
-   flex-direction : column;
-   align-items    : flex-end;
-   justify-content: center;
-   height         : 100%;
-   color          : white;
+   display         : flex;
+   flex-direction  : column;
+   align-items     : flex-end;
+   justify-content : center;
+   height          : 100%;
 }
 
 .starter__title,
@@ -39,44 +44,36 @@ body {
 }
 
 .starter__title {
-    margin-bottom: 1rem;
-    font-size    : 4.5rem;
-    font-weight  : 600;
+   margin-bottom: 1rem;
+   font-size    : 4.5rem;
+   font-weight  : 600;
+
 }
 
 .starter__desc {
-    margin-bottom : 5rem;
-    line-height   : 1.7;
+   margin-bottom: 5rem;
+   line-height  : 1.7;
 }
 
 .starter__link {
-   display         : block;
+   display: block;
    padding: 1.5em 2.5em;
-   border-radius   : 5rem;
 
    background-color: black;
-   color           : white;
+   border-radius   : 5rem;
 
-   text-decoration : none;
-   text-transform  : uppercase;
-   font-size       : 1.2rem;
-   letter-spacing  : 1.5px;
-   line-height     : 1;
+   color          : white;
+   text-decoration: none;
+   text-transform : uppercase;
+   font-size      : 1.2rem;
+   font-weight    : 600;
+   letter-spacing : 1.5px;
+   line-height    : 1;
 
-   transition      : color 0.2s, background-color 0.2s;
+   transition: color 0.3s, background-color 0.3s;
 }
 
 .starter__link:hover {
    background-color: white;
    color           : black;
-}
-
-/* section */
-.section {
-   padding: 80px 0;
-}
-
-/* feature */
-.feature {
-
 }
